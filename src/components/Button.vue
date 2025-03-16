@@ -29,6 +29,10 @@ const emit = defineEmits(["click"]);
   font-size: 0.75rem;
   letter-spacing: 0.0125em;
 }
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
 
 .btn:after {
   content: "";
@@ -64,11 +68,6 @@ const emit = defineEmits(["click"]);
   color: white;
 }
 
-.primary:hover {
-  background-color: var(--primary-dark);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
 .primary:disabled {
   background-color: rgba(0, 0, 0, 0.12);
   color: rgba(0, 0, 0, 0.38);
@@ -81,10 +80,6 @@ const emit = defineEmits(["click"]);
   color: white;
 }
 
-.secondary:hover {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
 .outline {
   background-color: transparent;
   color: var(--error-color);
@@ -93,7 +88,6 @@ const emit = defineEmits(["click"]);
 
 .outline:hover {
   background-color: rgba(176, 0, 32, 0.08);
-  transform: translateY(-2px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 </style>

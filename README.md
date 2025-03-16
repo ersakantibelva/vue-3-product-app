@@ -1,6 +1,6 @@
 # product-app
 
-This template should help get you started developing with Vue 3 in Vite.
+[Click here to go to deployed App](https://vue-3-product-app.vercel.app/)
 
 ## Recommended IDE Setup
 
